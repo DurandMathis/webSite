@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li>
+          <a class="header__link" href="#about">About</a>
+        </li>
+        <li>
+          <a class="header__link" href="#featured">Work</a>
+        </li>
+        <li>
+          <a class="header__link" href="#contact">Contact</a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <button class="header__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a class="header__resume btn" href="#">CV</a>
+        </li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero container">
+      <img class="hero__img" src="/pp.png" alt="Image de profile">
+      <h2 class="hero__subtitle">Bonjour, je m'appelle Mathis 👋</h2>
+      <h1 class="hero__title">DÉVELOPPEUR <br> FULL STACK.</h1>
+      <p class="hero__description">Un amoureux du développement web <strong>Frontend / Backend</strong> et un fan des
+        méthodes agiles type <strong>SCRUM / KANBAN</strong>.</p>
+      <a class="hero__btn btn" href="#">Contacter</a>
+    </section>
+    <section class="about container section">
+      <div class="about__content">
+        <h2 class="about__title">À-propos</h2>
+        <p class="about__description">Je m'appelle Mathis, je suis <strong>étudiant en 2ème année de BUT
+            informatique</strong> à l'iut de Bordeaux.
+        </p>
+        <p class="about__description">Les personnes qui me connaissent savent que lorsque je me lance dans une activité,
+          je m'y investis pleinement
+          et je suis une personne qui aime apprendre de nouvelles choses.</p>
+        <p class="about__description">En ce moment, je suis à la <a>recherche d'un stage en informatique</a> afin de
+          valider ma deuxième année en
+          BUT informatique.</p>
+        <hr class="about__hr">
+        <h3 class="about__subtitle">Langage informatique</h3>
+        <div class="about__ul-container">
+          <ul class="about__ul">
+            <li class="about__list">Java</li>
+            <li class="about__list">HTML/CSS/JS/PHP</li>
+            <li class="about__list">ReactJS</li>
+          </ul>
+          <ul class="about__ul">
+            <li class="about__list">Python</li>
+            <li class="about__list">SQL</li>
+            <li class="about__list">C#</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about__img-wrapper">
+        <img class="about__img" src="/moi.jpg" alt="une photo de moi" />
+      </div>
+    </section>
+    <section class="featured container section">
+      <h3 class="featured__subtitle">Projet vedette</h3>
+      <div class="featured__wrapper">
+        <h2 class="featured__tittle">COMPT-R³</h2>
+        <a class="featured__link" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+          </svg>
+        </a>
+      </div>
+      <p class="featured__description">COMPT-R³ est un projet qui a été réalisé en équipe à la fin de ma première année
+        de BUT informatique. L'objectif était de concevoir un programme permettant de visualiser des données provenant
+        de fichiers CSV. Le logiciel avait pour mission de créer une base de données, de la remplir et de générer des
+        graphiques. Il devait être accompagné d'une interface utilisateur.</p>
+      <div class="featured__info-container">
+        <div>
+          <h3 class="featured__label">Technologies</h3>
+          <ul class="featured__tech-stack">
+            <li class="featured__info">Python</li>
+            <li class="featured__info">SQL</li>
+            <li class="featured__info">C#</li>
+            <li class="featured__info">CSV</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="featured__label">Type de projet</h3>
+          <p class="featured__info">Projet de fin d'année regroupant toutes les notions vues en cours.</p>
+        </div>
+        <div>
+          <h3 class="featured__label">Déroulement</h3>
+          <p class="featured__info">08/06/2023 - 16/06/2023</p>
+        </div>
+      </div>
+      <div class="featured__img-container">
+        <div class="featured__img-wrapper">
+          <img src="/menu.png" alt="Logiciel COMPT-R³ menu">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/graph.png" alt="Logiciel COMPT-R³ graphique">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/idCard.png" alt="Logiciel COMPT-R³ idCard">
+        </div>
+        <div class="featured__img-wrapper">
+          <img src="/heatMap.png" alt="Logiciel COMPT-R³ heatmap">
+        </div>
+      </div>
+    </section>
+    <section class="work container section">
+      <h2 class="work__title">Projets</h2>
+      <p class="work__description">
+        Ici vous retrouverez une sélection de différents projets que j'ai réalisé durant mes études. Vous y trouverez
+        différents types de projets, allant de la création d'un site web à la création d'une IA pour un jeu vidéo. Pour
+        chaque projet, vous retrouverez une description, les technologies utilisées, le type de projet et le déroulement
+        de celui-ci ainsi qu'un retour d'expérience.
+      </p>
+      <!-- project 1 -->
+      <h3 class="work__project-title">Odomo</h3>
+      <img src="/odomo.png" alt="Projet station météo">
+      <p>Logiciel permettant de contrôler une station météo.</p>
+      <p>Ce projet a été réalisé en <strong>Java</strong> au début de ma première année de BUT informatique. Il consiste
+        en un logiciel de station météo permettant de voir tout un tas d'informations sur des données météorologiques
+      </p>
+      <a class="btn" href="#">Retex</a>
+    </section>
+    <!-- <section></section> -->
+  </main>
+  <!-- <footer></footer> -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
