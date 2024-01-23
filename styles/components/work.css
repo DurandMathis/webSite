@@ -10,7 +10,7 @@
 .work__description {
     max-width: 60ch;
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
     margin: 1rem auto;
 }
 
@@ -19,7 +19,7 @@
     margin-bottom: 1rem;
 }
 
-.work__img-wrapper{
+.work__img-wrapper {
     position: relative;
 }
 
@@ -35,7 +35,7 @@
     transition: background-color 0.3s;
 }
 
-.work__img-wrapper:hover::after{
+.work__img-wrapper:hover::after {
     background-color: rgba(79, 70, 229, 0.3);
 }
 
@@ -68,7 +68,7 @@
     .work__title {
         font-size: var(--size-3xl);
     }
-    
+
     .work__description {
         font-size: var(--size-base);
         margin: 1.5rem auto;
@@ -83,7 +83,7 @@
         font-size: var(--size-base);
         margin: 1.5rem 0;
     }
-    
+
     .work__project-description2 {
         font-size: var(--size-base);
         margin-bottom: 1.5rem;
@@ -99,11 +99,11 @@
     .work__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        'image1 content1'
-        'content2 image2'
-        'image3 content3'
-        'content4 image4';
+        grid-template-areas:
+            'image1 content1'
+            'content2 image2'
+            'image3 content3'
+            'content4 image4';
         place-items: center;
     }
 
@@ -151,7 +151,7 @@
         font-size: var(--size-xs);
         margin: 1em 0;
     }
-    
+
     .work__project-description2 {
         font-size: var(--size-xs);
         margin-bottom: 1em;
@@ -176,7 +176,7 @@
     .work__project-description1 {
         font-size: var(--size-sm);
     }
-    
+
     .work__project-description2 {
         font-size: var(--size-sm);
     }
@@ -195,7 +195,7 @@
     .work__title {
         font-size: var(--size-4xl);
     }
-    
+
     .work__description {
         font-size: var(--size-lg);
         margin: 1.5rem auto;
@@ -204,7 +204,7 @@
     .work__project-description1 {
         font-size: var(--size-base);
     }
-    
+
     .work__project-description2 {
         font-size: var(--size-base);
     }
@@ -223,7 +223,7 @@
     .work__title {
         font-size: var(--size-5xl);
     }
-    
+
     .work__description {
         font-size: var(--size-xl);
         margin: 2rem auto;
@@ -232,7 +232,7 @@
     .work__project-description1 {
         font-size: var(--size-lg);
     }
-    
+
     .work__project-description2 {
         font-size: var(--size-lg);
     }
@@ -257,4 +257,3 @@
         width: 70%;
     }
 }
-

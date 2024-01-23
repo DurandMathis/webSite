@@ -18,11 +18,11 @@
 .about__description {
     max-width: 60ch;
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
 }
 
 .about__hr {
-    border-color: var(--clr-slate800);
+    border-color: var(--clr-slate600);
 }
 
 .about__subtitle {
@@ -45,7 +45,7 @@
 
 .about__list {
     font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
 }
 
 .about__list::before {
@@ -58,23 +58,23 @@
     .about {
         gap: 1.5rem;
     }
-    
+
     .about__content {
         gap: 1.5rem;
     }
-    
+
     .about__title {
         font-size: var(--size-3xl);
     }
-    
+
     .about__description {
         font-size: var(--size-base);
     }
-    
+
     .about__subtitle {
         font-size: var(--size-base);
     }
-    
+
     .about__list {
         font-size: var(--size-base);
     }
@@ -107,15 +107,15 @@
     .about__title {
         font-size: var(--size-4xl);
     }
-    
+
     .about__description {
         font-size: var(--size-lg);
     }
-    
+
     .about__subtitle {
         font-size: var(--size-lg);
     }
-    
+
     .about__list {
         font-size: var(--size-lg);
     }
@@ -130,15 +130,15 @@
     .about__title {
         font-size: var(--size-5xl);
     }
-    
+
     .about__description {
         font-size: var(--size-xl);
     }
-    
+
     .about__subtitle {
         font-size: var(--size-xl);
     }
-    
+
     .about__list {
         font-size: var(--size-xl);
     }
